@@ -1,0 +1,35 @@
+---
+title: "CentOS Command"
+author: "lxh"
+date: "Wednesday, October 29, 2014"
+output: html_document
+---
+
+
+查看磁盘空间大小
+df -lh
+
+这是按照由大到小排序，如果想要反过来，从小到大，那么用：
+ls -Slr 
+
+如果，增加参考-h的话，表示"--human-readable"，单位就是k或者M，以易于理解的结果展示。
+ls -Sl -h
+
+监控实时进程使用情况
+top -M
+在交互界面中使用 shift + m ，可按内存使用大小排序
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
