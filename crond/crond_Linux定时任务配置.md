@@ -1,9 +1,3 @@
----
-title: "crond "
-author: "lxh"
-date: "Thursday, November 13, 2014"
-output: html_document
----
 
 使用crontab运行定时任务的方法，分享给大家
 
