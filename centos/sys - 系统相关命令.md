@@ -2,9 +2,9 @@
 
 操作系统信息
 ```
-uname -a # 显示电脑以及操作系统的相关信息
+
 cat /proc/version # 输出正在运行的内核版本，包含gcc版本
-cat /etc/issue # 输出发行版本信息
+cat /etc/redhat-release # 输出发行版本信息，CentOS版本
 ```
 
 
